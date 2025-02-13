@@ -15,6 +15,10 @@ body {
   background-color: #ffffff !important; /* 네비게이션 바 배경색을 흰색으로 설정 */
 }
 
+.menu {
+  margin-bottom: 50px;
+}
+
 /* 로고 (좌측 여백) */
 /* .navbar-brand {
   margin-left: 10px; 
@@ -42,18 +46,6 @@ body {
 .logo {
   width: 50px; /* 로고 크기 */
   height: auto;
-}
-
-/* 그리드 이미지 스타일 */
-.img-fluid {
-  width: 100%; /* 이미지 너비 조정 */
-  height: auto; /* 이미지 비율 유지 */
-  margin: 0;
-}
-
-.grid-container {
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 /* 반응형 스타일 */
