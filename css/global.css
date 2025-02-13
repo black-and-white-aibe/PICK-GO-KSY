@@ -44,7 +44,7 @@ body {
 /* 반응형 스타일 */
 /* max-width 값 = 여백 없애는 기준 */
 @media (max-width: 768px) {
-  .screen {
+  .screen-container {
     padding: 0 20px;
   }
 
