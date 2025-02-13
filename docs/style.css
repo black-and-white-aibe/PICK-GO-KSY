@@ -13,7 +13,6 @@ body {
   height: 80px; /* 네비게이션 바 높이 */
   padding: 0 20px; /* 네비게이션 바 전체 좌우 여백 */
   background-color: #ffffff !important; /* 네비게이션 바 배경색을 흰색으로 설정 */
-  position: relative;
 }
 
 /* 로고 (좌측 여백) */
@@ -45,6 +44,18 @@ body {
   height: auto;
 }
 
+/* 그리드 이미지 스타일 */
+.img-fluid {
+  width: 100%; /* 이미지 너비 조정 */
+  height: auto; /* 이미지 비율 유지 */
+  margin: 0;
+}
+
+.grid-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /* 반응형 스타일 */
 /* max-width 값 = 여백 없애는 기준 */
 @media (max-width: 768px) {
@@ -60,7 +71,6 @@ body {
     top: 80px; /* 네비게이션 바 바로 아래에 위치 */
     left: 0;
     width: 100%;
-    z-index: 1000; /* 다른 요소 위에 위치 */
   }
 
   .navbar-collapse .nav-link {
